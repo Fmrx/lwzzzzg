@@ -10,11 +10,9 @@
     <packaging>pom</packaging>
 
     <modules>
+        <module>lwzzzzg-mbg</module>
+        <module>lwzzzzg-core</module>
         <module>lwzzzzg-common</module>
-        <module>lwzzzzg-mbg</module>
-        <module>lwzzzzg-core</module>
-        <module>lwzzzzg-mbg</module>
-        <module>lwzzzzg-core</module>
     </modules>
 
     <parent>
