@@ -1,4 +1,4 @@
-package com.zhang;
+package com.lwzzzzg;
 
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.core.exceptions.MybatisPlusException;
@@ -68,7 +68,7 @@ public class MysqlGenerator {
         // 包配置
         PackageConfig pc = new PackageConfig();
 //        pc.setModuleName(scanner("模块名"));
-        pc.setParent("com.zhang");
+        pc.setParent("com.zhang.lwzzzzg");
         mpg.setPackageInfo(pc);
 
         // 自定义配置

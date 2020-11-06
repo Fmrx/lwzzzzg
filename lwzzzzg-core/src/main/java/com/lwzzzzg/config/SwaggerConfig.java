@@ -1,4 +1,4 @@
-package com.zhang.lwzzzzg.config;
+package com.lwzzzzg.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

@@ -1,4 +1,4 @@
-package com.zhang.result;
+package com.lwzzzzg.result;
 
 public interface ErrorCode {
 
