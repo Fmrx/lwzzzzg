@@ -6,6 +6,8 @@ import com.lwzzzzg.service.UmsMemberService;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
+
 /**
  * <p>
  *  服务实现类
@@ -17,4 +19,8 @@ import org.springframework.stereotype.Service;
 @Service
 public class UmsMemberServiceImpl extends ServiceImpl<UmsMemberMapper, UmsMember> implements UmsMemberService {
 
+    @Override
+    public List<UmsMember> selectList() {
+        return this.baseMapper.selectList(null);
+    }
 }

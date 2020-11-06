@@ -4,6 +4,7 @@ package com.lwzzzzg.controller;
 import com.lwzzzzg.annotations.LoginUser;
 import com.lwzzzzg.component.JwtHelper;
 import com.lwzzzzg.result.ResultVo;
+import com.lwzzzzg.service.UmsMemberService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiImplicitParam;
 import io.swagger.annotations.ApiOperation;
@@ -31,11 +32,14 @@ public class UmsMemberController {
     @Autowired
     private JwtHelper jwtHelper;
 
+    @Autowired
+    private UmsMemberService umsMemberService;
+
     @ApiOperation("用户列表")
     @ApiImplicitParam(value = "用户id", dataType = "Integer", name = "userId", required = false)
     @PostMapping(value = "/list")
     public ResultVo list() {
-        return ResultVo.success();
+        return ResultVo.success(umsMemberService.selectList());
     }
 
     @ApiOperation("获取token")

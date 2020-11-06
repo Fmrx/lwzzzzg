@@ -1,7 +1,7 @@
 package com.lwzzzzg.mapper;
 
-import com.lwzzzzg.entity.UmsMember;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
+import com.lwzzzzg.entity.UmsMember;
 
 /**
  * <p>
