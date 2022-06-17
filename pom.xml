@@ -101,7 +101,7 @@
         <dependency>
             <groupId>com.alibaba</groupId>
             <artifactId>fastjson</artifactId>
-            <version>1.2.73</version>
+            <version>1.2.83</version>
         </dependency>
         <!-- 生成jwt所需的包 jdk8之前不需要引入-->
         <dependency>
